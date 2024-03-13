@@ -1,4 +1,5 @@
-const socket = io.connect("http://localhost:3000");
+// const socket = io.connect("http://localhost:3000");
+const socket = io.connect("http://192.168.0.101:3000");
 
 socket.on("connect", function () {
 	console.log("Connected to server");

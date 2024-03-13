@@ -40,6 +40,9 @@ io.on("connection", function (client) {
 	});
 });
 
-server.listen(3000, function () {
-	console.log("listening on *:3000");
+// server.listen(3000, function () {
+// 	console.log("listening on *:3000");
+// });
+server.listen(3000, "192.168.0.101", function () {
+	console.log("Server listening on 192.168.0.101:3000");
 });
